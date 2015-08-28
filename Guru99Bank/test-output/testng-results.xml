@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Guru" duration-ms="17973" started-at="2015-08-28T01:45:30Z" finished-at="2015-08-28T01:45:48Z">
+    <groups>
+    </groups>
+    <test name="regressionTest" duration-ms="17973" started-at="2015-08-28T01:45:30Z" finished-at="2015-08-28T01:45:48Z">
+      <class name="Tests.LogINTest">
+        <test-method status="PASS" signature="testClickGenerateAccess()[pri:0, instance:Tests.LogINTest@911d38e]" name="testClickGenerateAccess" duration-ms="901" started-at="2015-08-27T21:45:37Z" finished-at="2015-08-27T21:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClickGenerateAccess -->
+        <test-method status="PASS" signature="testLoginBlankUsernamePassword()[pri:0, instance:Tests.LogINTest@911d38e]" name="testLoginBlankUsernamePassword" duration-ms="1831" started-at="2015-08-27T21:45:38Z" finished-at="2015-08-27T21:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginBlankUsernamePassword -->
+        <test-method status="PASS" signature="testLoginEmptyUsernamePassword()[pri:0, instance:Tests.LogINTest@911d38e]" name="testLoginEmptyUsernamePassword" duration-ms="1277" started-at="2015-08-27T21:45:40Z" finished-at="2015-08-27T21:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginEmptyUsernamePassword -->
+        <test-method status="PASS" signature="testLoginInvalidUsernamePassword()[pri:0, instance:Tests.LogINTest@911d38e]" name="testLoginInvalidUsernamePassword" duration-ms="2298" started-at="2015-08-27T21:45:41Z" finished-at="2015-08-27T21:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginInvalidUsernamePassword -->
+        <test-method status="PASS" signature="testValidLogin()[pri:0, instance:Tests.LogINTest@911d38e]" name="testValidLogin" duration-ms="1483" started-at="2015-08-27T21:45:44Z" finished-at="2015-08-27T21:45:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+      </class> <!-- Tests.LogINTest -->
+      <class name="Tests.NewAccountTest">
+        <test-method status="PASS" signature="testSetup()[pri:0, instance:Tests.NewAccountTest@1295e93d]" name="testSetup" is-config="true" duration-ms="7631" started-at="2015-08-27T21:45:30Z" finished-at="2015-08-27T21:45:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method status="PASS" signature="AddingNewAccount()[pri:0, instance:Tests.NewAccountTest@1295e93d]" name="AddingNewAccount" duration-ms="2301" started-at="2015-08-27T21:45:45Z" finished-at="2015-08-27T21:45:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddingNewAccount -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.NewAccountTest@1295e93d]" name="tearDown" is-config="true" duration-ms="225" started-at="2015-08-27T21:45:47Z" finished-at="2015-08-27T21:45:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.NewAccountTest -->
+    </test> <!-- regressionTest -->
+  </suite> <!-- Guru -->
+</testng-results>

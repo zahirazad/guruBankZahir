@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2" name="Failed suite [Guru]">
+  <test name="regressionTest(failed)">
+    <classes>
+      <class name="Tests.LogINTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSetup"/>
+        </methods>
+      </class> <!-- Tests.LogINTest -->
+      <class name="Tests.NewAccountTest">
+        <methods>
+          <include name="AddingNewAccount"/>
+        </methods>
+      </class> <!-- Tests.NewAccountTest -->
+    </classes>
+  </test> <!-- regressionTest(failed) -->
+</suite> <!-- Failed suite [Guru] -->

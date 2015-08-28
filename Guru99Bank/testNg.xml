@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Guru" verbose="2" >
+  <test name="regressionTest" >
+    <classes>
+       <class name="Tests.LogINTest" />
+       <class name= "Tests.NewAccountTest"/>
+    </classes>
+  </test>
+ 
+  </suite>
